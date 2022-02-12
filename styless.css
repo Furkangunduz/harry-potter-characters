@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 20px;
+    font-family:monospace ;
+}
+
+body{
+    background: rgb(0,16,36);
+    background: linear-gradient(90deg, rgba(0,16,36,0.7378917378917379) 6%, rgba(157,201,224,1) 51%, rgba(0,212,255,1) 100%);
+    text-align: center;
+}
+h2{
+    font-size: 6em;
+    margin: 25px;
+}
+
+.search input{
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 30%;
+    padding: 10px 20px;
+}
+.search .btn-search{
+    width: 20px;
+    height: 20px;
+}
+
+.harry-potter-page{
+    margin: 100px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.potter-card{
+    width: 20%;
+    margin: 15px 25px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+.potter-card img{
+    border-radius: 50%;
+    width:fit-content;
+    margin-bottom: 15px;
+}
